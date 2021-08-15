@@ -1,0 +1,28 @@
+<?php
+    include("conexion.php");
+    include("sistema/modelo/database.php");
+    include("sistema/modelo/db_object.php");
+    include("sistema/control/session.php");
+    include("sistema/modelo/persona.php");
+    include("sistema/modelo/usuario.php");
+    include("sistema/modelo/empleado.php");
+    include("sistema/modelo/proveedor.php");
+    include("sistema/modelo/cliente.php");
+    include("sistema/modelo/categoria.php");
+    include("sistema/modelo/marca.php");
+    include("sistema/modelo/producto.php");
+    include("sistema/modelo/color.php");
+    include("sistema/modelo/venta.php");
+    include("sistema/modelo/detalle_venta.php");
+    include("sistema/modelo/producto_almacen.php");
+    include("sistema/modelo/concepto.php");
+    include("sistema/modelo/tipo_transaccion.php");
+    include("sistema/modelo/compra.php");
+    include("sistema/modelo/detalle_compra.php");
+    include("sistema/modelo/movimiento.php");
+    include("sistema/modelo/almacen.php");
+    include("sistema/modelo/temporal.php");
+    include("sistema/modelo/cambio.php");
+    include("sistema/modelo/detalle_cambio.php");
+    
+?>

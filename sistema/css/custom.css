@@ -1,0 +1,20 @@
+
+/*Para los ID de las tablas de los formularios*/
+input[readonly]{
+    background-color:transparent;
+    border: 0;
+    font-size: 1em;
+}
+/*Formularios*/
+input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+    input[type=number] {
+    -moz-appearance: textfield;
+    }
+/*Tabla*/
+#mycell {
+    max-width: 150px;
+} 
